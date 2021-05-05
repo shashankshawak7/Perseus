@@ -1,0 +1,2 @@
+PROJECT_DIR=/perseus/perseus_db
+PG_DATA=$PROJECT_DIR/PostGreSQL/PGDATA/
