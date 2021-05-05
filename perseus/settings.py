@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'perseus_gcp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -86,11 +87,11 @@ DATABASES = {
 
                              'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-                                   'NAME': 'hestia',
+                                   'NAME': 'perseus',
 
                                          'USER': 'shashank',
 
-                                               'PASSWORD': 'Hestia',
+                                               'PASSWORD': 'perseus',
                                                       'HOST': '127.0.0.1',
 
                                                                'PORT': '5432',
