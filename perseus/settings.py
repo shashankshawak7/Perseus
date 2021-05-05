@@ -82,23 +82,17 @@ WSGI_APPLICATION = 'perseus.wsgi.application'
 #}
 
 DATABASES = {
-
-                    'default': {
-
-                             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-                                   'NAME': 'perseus',
-
-                                         'USER': 'shashank',
-
-                                               'PASSWORD': 'perseus',
-                                                      'HOST': '127.0.0.1',
-
-                                                               'PORT': '5432',
-
-                                                                                                                                   }
-
+            'default': {
+                            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                            'NAME': 'perseus',
+                            'USER': 'shashank',
+                            'PASSWORD': 'perseus',
+                            'HOST': '127.0.0.1',
+                            'PORT': '5432',
                                 }
+            }
+
+
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
