@@ -1,0 +1,25 @@
+# this is a project level YAML file containing all the configurations that you want to place for setup of your GCP Infrastructure.
+# you also have to select if you want to create an organization or just start with a project 
+
+
+InitialSetup:
+  - Organizationname: 
+    - name: OrganizationName
+    - 
+    #repeat Project tag for multiple projects to be created 
+  - Project:
+    - name: ProjectName1
+    - Location: Location(Organization Name/Folder Name)
+    - type: 'Organization'
+  
+  - Project:
+    - name: ProjectName2
+    - Location: Location(Organization Name/Folder Name)
+    - type: 'Organization'
+  - Project:
+    - name: ProjectName3
+    - Location: Location(Organization Name/Folder Name)
+    - type: 'Organization'
+
+  - vpc:
+    -

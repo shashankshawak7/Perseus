@@ -18,7 +18,8 @@ class networkingGCP:
         data_read = json.loads(data)
         return data_read
 
-    def __createvpc(self,):
+    def _createvpc(self,):
         pass
+
             
             
